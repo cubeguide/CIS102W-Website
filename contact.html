@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CIS102W Personal Portfolio - Contact Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="contact-hero">
+        <h1>Get in Touch</h1>
+        <p>
+          Contact me if you have project ideas, internships, 
+          or need project partners.
+        </p>
+      </section>
+
+      <section id="contact-content">
+        <div id="contact-info">
+          <h2>Contact Information</h2>
+          <ul>
+            <li><i class="fas fa-envelope"></i>NC28628N@pace.edu</li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/nathaniel-cheung-656765329/" target="_blank"
+                >linkedin.com/in/nathaniel-cheung-656765329/</a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="contact-form">
+          <h2>Send a Message</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/nathaniel-cheung-656765329/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://leetcode.com/u/cubeguide/" target="_blank"
+          ><img src="images/leetcode-icon.png" alt="LeetCode" style="width:24px; height:24px;"
+        ></a>
+        <a href="https://github.com/cubeguide" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p>&copy; 2025 Nate Cheung. This was pulled from a template. Hopefully, we'll have a nicer looking portfolio with React in a year.</p>
+    </footer>
+  </body>
+</html>
